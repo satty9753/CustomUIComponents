@@ -130,23 +130,30 @@ class CEODatePicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource 
             let month = self.selectedRow(inComponent: Component.month.rawValue)+1
             let year = years[self.selectedRow(inComponent: Component.year.rawValue)]
             let day = self.selectedRow(inComponent: Component.day.rawValue)+1
-
+            
             self.month = month
             self.year = year
             self.day = day
         
             if component == Component.year.rawValue{
                 self.months = generateMonth(year: year)
-                self.month = self.months.count
-                pickerView.reloadComponent(Component.month.rawValue)
+                if self.months.count < 12{
+                    self.month = self.months.count
+                }
+                let days = generateDays(year: year, month: self.month)
+                self.days = days
+                self.day = days.count
+                pickerView.reloadAllComponents()
             }
             
-            if component != Component.day.rawValue {
+            if component == Component.month.rawValue {
                 let days = generateDays(year: year, month: self.month)
                 self.days = days
                 self.day = days.count
                 pickerView.reloadComponent(Component.day.rawValue)
             }
+            
+            print(self.month, self.day)
 
             self.month = self.selectedRow(inComponent: Component.month.rawValue)+1
             self.day = self.selectedRow(inComponent: Component.day.rawValue)+1

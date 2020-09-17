@@ -14,6 +14,7 @@
 		328FE460250A2C1300D426C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328FE45F250A2C1300D426C5 /* Assets.xcassets */; };
 		328FE463250A2C1300D426C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328FE461250A2C1300D426C5 /* LaunchScreen.storyboard */; };
 		328FE46B250A2C3E00D426C5 /* CEODatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328FE46A250A2C3E00D426C5 /* CEODatePicker.swift */; };
+		329A09E92511ABB200C8ED9F /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329A09E82511ABB200C8ED9F /* MonthYearPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		328FE462250A2C1300D426C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		328FE464250A2C1300D426C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328FE46A250A2C3E00D426C5 /* CEODatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEODatePicker.swift; sourceTree = "<group>"; };
+		329A09E82511ABB200C8ED9F /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				328FE458250A2C0E00D426C5 /* SceneDelegate.swift */,
 				328FE45A250A2C0E00D426C5 /* ViewController.swift */,
 				328FE46A250A2C3E00D426C5 /* CEODatePicker.swift */,
+				329A09E82511ABB200C8ED9F /* MonthYearPickerView.swift */,
 				328FE45C250A2C0E00D426C5 /* Main.storyboard */,
 				328FE45F250A2C1300D426C5 /* Assets.xcassets */,
 				328FE461250A2C1300D426C5 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				328FE45B250A2C0E00D426C5 /* ViewController.swift in Sources */,
+				329A09E92511ABB200C8ED9F /* MonthYearPickerView.swift in Sources */,
 				328FE46B250A2C3E00D426C5 /* CEODatePicker.swift in Sources */,
 				328FE457250A2C0E00D426C5 /* AppDelegate.swift in Sources */,
 				328FE459250A2C0E00D426C5 /* SceneDelegate.swift in Sources */,

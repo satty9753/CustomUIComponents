@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
 //    var datePicker: CEODatePicker!
     
-    @IBOutlet weak var datePicker: CEODatePicker!
+    @IBOutlet weak var datePicker: MonthYearPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,10 +25,7 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-//        let currentDay = Calendar.current.component(.day, from: Date())
-        datePicker.selectRow(100, inComponent: 2, animated: false)
-       
+
     }
 }
 

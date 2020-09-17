@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gga-Nr-hV5" customClass="CEODatePicker" customModule="CustomUIComponent" customModuleProvider="target">
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gga-Nr-hV5" customClass="MonthYearPickerView" customModule="CustomUIComponent" customModuleProvider="target">
                                 <rect key="frame" x="47" y="340" width="320" height="216"/>
                             </pickerView>
                         </subviews>
